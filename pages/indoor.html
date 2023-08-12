@@ -7,8 +7,68 @@
     <link rel="stylesheet" href="./../css/indoor.css">
 
     <script src="https://kit.fontawesome.com/d98c604f8e.js" crossorigin="anonymous"></script>
+
+    <style>
+        .logo-height{
+          height: 70px;
+        }
+        .h-500p{
+          height: 500px;
+        }
+      </style>
 </head>
 <body>
+<!---Nav Bar-->
+
+<nav class="navbar navbar-expand-lg bg-light shadow p-3 mb-5 bg-body-tertiary rounded">
+    <div class="container-fluid">
+      <img class=" img-fluid logo-height" src="./../images/index.img/logohome.png"/>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-dark ps-5" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark ps-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plants
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="./assignment no 18.html">Indoor Plants</a></li>
+              <li><a class="dropdown-item " href="./assignment no 17.html">Outdoor Plants</a></li>
+              <li><a class="dropdown-item " href="./assignment no 14.html">Flowering Plants</a></li>
+              <li><a class="dropdown-item " href="./assignment no 14.html">Succulents Plants</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark ps-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Special  Plants Shoping
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="./assignment no 17.html">Rose</a></li>
+              <li><a class="dropdown-item " href="./assignment no 17.html">Lotus</a></li>
+              <li><a class="dropdown-item " href="./assignment no 14.html"> lily</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark ps-5" href=" ">Online Shoping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark ps-5" href="#l">About Us</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-success ms-5">Login</button>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--nav bar-->
     
 <!---------Slider bar------------>
 <div id="carouselExampleCaptions" class="carousel slide">
@@ -51,9 +111,46 @@
   </div>
 
 <div class="container">
-    <h1 class="mt-3">Indoor Plants</h1>
-    <p class=" fw-semibold">In recent years, the popularity of indoor home plants has skyrocketed, and for good reason. These natural wonders not only add beauty and tranquility to your living space but also provide a range of benefits that contribute to your overall well-being.</p>
+    <h1 class="mt-3 text-center">Indoor Plants</h1>
+    <p class=" fw-medium">The history of houseplants is intertwined with the history of container gardening in general. Ancient Egyptians and Sumerians grew ornamental and fruiting plants in decorative containers. Ancient Greeks and the Romans cultivated laurel trees (Laurus nobilis) in earthenware vessels. In ancient China, potted plants were shown at garden exhibitions over 2,500 years ago.</p>
 </div>
+<!---------------------------Cards------------------------------------------------->
+<div class="container d-flex flex-row justify-content-around">
+<div class="card m-3 border-0 shadow" style="width: 18rem;">
+    <img src="./../images/indoor/AtlantisPlanter-PastelBlue.webp" class="card-img-top" alt="...">
+    <div class="card-body ">
+      <h5 class="card-title">Peace Lily Plant</h5>
+      <hr>
+      <p class="card-text">He bigger cousin of the beautiful peace lily.</p>
+      <p><del><i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: #0c0d0d;"></i> 399</del> <Span class="text-success fw-semibold fs-5">From <i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: green;"></i> 239</Span></p>
+      <a href="#" class="btn bg-success text-light m-auto d-block">View Products</a>
+    </div>
+  </div>
+<div class="card m-3 border-0 shadow" style="width: 18rem;">
+    <img src="./../images/indoor/LagosPlanter-Grey.webp" class="card-img-top" alt="...">
+    <div class="card-body ">
+      <h5 class="card-title">Jade Plant Mini</h5>
+      <hr>
+      <p class="card-text"> The Crassula Green Mini will be your dream plant kid.</p>
+      <p><del><i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: #0c0d0d;"></i> 299</del> <Span class="text-success fw-semibold fs-5">From <i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: green;"></i> 189</Span></p>
+      <a href="#" class="btn bg-success text-light d-block m-auto">View Products</a>
+    </div>
+  </div>
+<div class="card m-3 border-0 shadow" style="width: 18rem;">
+    <img src="./../images/indoor/SpiroCeramicPot-White.webp
+    " class="card-img-top" alt="...">
+    <div class="card-body ">
+      <h5 class="card-title">Bamboo Palm Plant</h5>
+      <hr>
+      <p class="card-text">Its lush green foliage swaying daintily in the breeze is sure .</p>
+      <p><del><i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: #0c0d0d;"></i> 499</del> <Span class="text-success fw-semibold fs-5">From <i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: green;"></i> 319</Span></p>
+      <a href="#" class="btn bg-success text-light d-block m-auto">View Products</a>
+    </div>
+  </div>
+</div>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
